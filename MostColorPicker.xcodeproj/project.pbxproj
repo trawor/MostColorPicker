@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F2D988A175768AA00EF4C87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2D9889175768AA00EF4C87 /* UIKit.framework */; };
+		1F2D988C175768AA00EF4C87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2D988B175768AA00EF4C87 /* Foundation.framework */; };
+		1F2D988E175768AA00EF4C87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2D988D175768AA00EF4C87 /* CoreGraphics.framework */; };
+		1F2D9894175768AB00EF4C87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F2D9892175768AB00EF4C87 /* InfoPlist.strings */; };
+		1F2D9896175768AB00EF4C87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D9895175768AB00EF4C87 /* main.m */; };
+		1F2D989A175768AB00EF4C87 /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D9899175768AB00EF4C87 /* SBAppDelegate.m */; };
+		1F2D989C175768AB00EF4C87 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2D989B175768AB00EF4C87 /* Default.png */; };
+		1F2D989E175768AB00EF4C87 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2D989D175768AB00EF4C87 /* Default@2x.png */; };
+		1F2D98A0175768AB00EF4C87 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2D989F175768AB00EF4C87 /* Default-568h@2x.png */; };
+		1F2D98A8175768CB00EF4C87 /* UIImage+MostColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D98A7175768CB00EF4C87 /* UIImage+MostColor.m */; };
+		1F2D98AC17576BF900EF4C87 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F2D98A917576BF900EF4C87 /* 1.jpg */; };
+		1F2D98AD17576BF900EF4C87 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F2D98AA17576BF900EF4C87 /* 3.jpg */; };
+		1F2D98AE17576BF900EF4C87 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F2D98AB17576BF900EF4C87 /* 2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F2D9886175768AA00EF4C87 /* MostColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MostColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2D9889175768AA00EF4C87 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F2D988B175768AA00EF4C87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F2D988D175768AA00EF4C87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F2D9891175768AB00EF4C87 /* MostColorPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MostColorPicker-Info.plist"; sourceTree = "<group>"; };
+		1F2D9893175768AB00EF4C87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F2D9895175768AB00EF4C87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F2D9897175768AB00EF4C87 /* MostColorPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MostColorPicker-Prefix.pch"; sourceTree = "<group>"; };
+		1F2D9898175768AB00EF4C87 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		1F2D9899175768AB00EF4C87 /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
+		1F2D989B175768AB00EF4C87 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1F2D989D175768AB00EF4C87 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1F2D989F175768AB00EF4C87 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1F2D98A6175768CB00EF4C87 /* UIImage+MostColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MostColor.h"; sourceTree = "<group>"; };
+		1F2D98A7175768CB00EF4C87 /* UIImage+MostColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MostColor.m"; sourceTree = "<group>"; };
+		1F2D98A917576BF900EF4C87 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		1F2D98AA17576BF900EF4C87 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		1F2D98AB17576BF900EF4C87 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F2D9883175768AA00EF4C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2D988A175768AA00EF4C87 /* UIKit.framework in Frameworks */,
+				1F2D988C175768AA00EF4C87 /* Foundation.framework in Frameworks */,
+				1F2D988E175768AA00EF4C87 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F2D987D175768AA00EF4C87 = {
+			isa = PBXGroup;
+			children = (
+				1F2D98A6175768CB00EF4C87 /* UIImage+MostColor.h */,
+				1F2D98A7175768CB00EF4C87 /* UIImage+MostColor.m */,
+				1F2D988F175768AB00EF4C87 /* MostColorPicker */,
+				1F2D9888175768AA00EF4C87 /* Frameworks */,
+				1F2D9887175768AA00EF4C87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F2D9887175768AA00EF4C87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F2D9886175768AA00EF4C87 /* MostColorPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F2D9888175768AA00EF4C87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F2D9889175768AA00EF4C87 /* UIKit.framework */,
+				1F2D988B175768AA00EF4C87 /* Foundation.framework */,
+				1F2D988D175768AA00EF4C87 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F2D988F175768AB00EF4C87 /* MostColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1F2D9898175768AB00EF4C87 /* SBAppDelegate.h */,
+				1F2D9899175768AB00EF4C87 /* SBAppDelegate.m */,
+				1F2D9890175768AB00EF4C87 /* Supporting Files */,
+			);
+			path = MostColorPicker;
+			sourceTree = "<group>";
+		};
+		1F2D9890175768AB00EF4C87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F2D98A917576BF900EF4C87 /* 1.jpg */,
+				1F2D98AA17576BF900EF4C87 /* 3.jpg */,
+				1F2D98AB17576BF900EF4C87 /* 2.jpg */,
+				1F2D9891175768AB00EF4C87 /* MostColorPicker-Info.plist */,
+				1F2D9892175768AB00EF4C87 /* InfoPlist.strings */,
+				1F2D9895175768AB00EF4C87 /* main.m */,
+				1F2D9897175768AB00EF4C87 /* MostColorPicker-Prefix.pch */,
+				1F2D989B175768AB00EF4C87 /* Default.png */,
+				1F2D989D175768AB00EF4C87 /* Default@2x.png */,
+				1F2D989F175768AB00EF4C87 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F2D9885175768AA00EF4C87 /* MostColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F2D98A3175768AB00EF4C87 /* Build configuration list for PBXNativeTarget "MostColorPicker" */;
+			buildPhases = (
+				1F2D9882175768AA00EF4C87 /* Sources */,
+				1F2D9883175768AA00EF4C87 /* Frameworks */,
+				1F2D9884175768AA00EF4C87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MostColorPicker;
+			productName = MostColorPicker;
+			productReference = 1F2D9886175768AA00EF4C87 /* MostColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F2D987E175768AA00EF4C87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Plumn LLC.";
+			};
+			buildConfigurationList = 1F2D9881175768AA00EF4C87 /* Build configuration list for PBXProject "MostColorPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F2D987D175768AA00EF4C87;
+			productRefGroup = 1F2D9887175768AA00EF4C87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F2D9885175768AA00EF4C87 /* MostColorPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F2D9884175768AA00EF4C87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2D9894175768AB00EF4C87 /* InfoPlist.strings in Resources */,
+				1F2D989C175768AB00EF4C87 /* Default.png in Resources */,
+				1F2D989E175768AB00EF4C87 /* Default@2x.png in Resources */,
+				1F2D98A0175768AB00EF4C87 /* Default-568h@2x.png in Resources */,
+				1F2D98AC17576BF900EF4C87 /* 1.jpg in Resources */,
+				1F2D98AD17576BF900EF4C87 /* 3.jpg in Resources */,
+				1F2D98AE17576BF900EF4C87 /* 2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F2D9882175768AA00EF4C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2D9896175768AB00EF4C87 /* main.m in Sources */,
+				1F2D989A175768AB00EF4C87 /* SBAppDelegate.m in Sources */,
+				1F2D98A8175768CB00EF4C87 /* UIImage+MostColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F2D9892175768AB00EF4C87 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F2D9893175768AB00EF4C87 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F2D98A1175768AB00EF4C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F2D98A2175768AB00EF4C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F2D98A4175768AB00EF4C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MostColorPicker/MostColorPicker-Prefix.pch";
+				INFOPLIST_FILE = "MostColorPicker/MostColorPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F2D98A5175768AB00EF4C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MostColorPicker/MostColorPicker-Prefix.pch";
+				INFOPLIST_FILE = "MostColorPicker/MostColorPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F2D9881175768AA00EF4C87 /* Build configuration list for PBXProject "MostColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2D98A1175768AB00EF4C87 /* Debug */,
+				1F2D98A2175768AB00EF4C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F2D98A3175768AB00EF4C87 /* Build configuration list for PBXNativeTarget "MostColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2D98A4175768AB00EF4C87 /* Debug */,
+				1F2D98A5175768AB00EF4C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F2D987E175768AA00EF4C87 /* Project object */;
+}
